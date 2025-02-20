@@ -26,8 +26,10 @@ The transaction data required for this project is too large for GitHub. Please p
 ### Running the Notebooks
 #### Predicting_churn.ipynb
 **Description**: This notebook performs an analysis on the transaction data to predict which clients are likely to churn. It uses machine learning models to identify patterns and factors that contribute to client churn.
+
 **Output**: The notebook outputs a CSV file containing the churn predictions for each client. This file is saved in the result folder as clients_churn_risk_ranking.csv.
 #### Optimizing_client_reach.ipynb
 **Description**: This notebook takes the churn predictions and applies optimization algorithms to determine the most effective client reach strategies. It considers factors like cost, impact, and diminishing returns.
+
 **Output**: It produces a CSV file detailing the optimal outreach strategy for each client, considering their predicted churn risk. This file is located in the result folder under optimized_contact_strategies.csv.
 Results
